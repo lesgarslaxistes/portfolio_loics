@@ -4,8 +4,7 @@
 /* ---- Fonts / Police ---- */
 
 @font-face {
-    font-family: Square;
-    src: url(../../fonts/Square.ttf);
+  font-family: 'square';
 }
 
 /* ---- Hero / Cover ---- */
@@ -58,7 +57,7 @@
 }
 
 h4.hero-subheading {
-  font-family: Square, "Open Sans","Helvetica Neue",Helvetica,sans-serif;
+  font-family: square, "Open Sans","Helvetica Neue",Helvetica,sans-serif;
 	font-size: 1.3em;
 	letter-spacing: 2px;
 }
@@ -201,9 +200,9 @@ width: 48px;
 
 /* ---- CV PAGE ---- */
 
-.ft-centered .ft-square-frame-dark span.bts {background: rgb(0, 28, 155); !important}
-.ft-centered .ft-square-frame-dark span.licence {background: rgb(0, 146, 156); !important}
-.ft-centered .ft-square-frame-dark span.master {background: rgb(167, 61, 0); !important}
+.ft-centered .ft-square-frame-dark span.bts {background: rgb(0, 28, 155); }
+.ft-centered .ft-square-frame-dark span.licence {background: rgb(0, 146, 156); }
+.ft-centered .ft-square-frame-dark span.master {background: rgb(167, 61, 0); }
 
 
 
@@ -235,11 +234,11 @@ display: block;
 letter-spacing: 0;
 }
 
-.xp_bts_title .panel-heading {border-left: 12px solid #BBB; !important}
-.xp_licence_title .panel-heading {border-left: 12px solid #BBB; !important}
-.xp_master_title .panel-heading {border-left: 12px solid rgb(0, 31, 170); !important}
-.xp_job_title .panel-heading {border-left: 12px solid rgb(3, 150, 155); !important}
-.xp_auto_title .panel-heading {border-left: 12px solid rgb(170, 85, 6); !important}
+.xp_bts_title .panel-heading {border-left: 12px solid #BBB; }
+.xp_licence_title .panel-heading {border-left: 12px solid #BBB; }
+.xp_master_title .panel-heading {border-left: 12px solid rgb(0, 31, 170); }
+.xp_job_title .panel-heading {border-left: 12px solid rgb(3, 150, 155); }
+.xp_auto_title .panel-heading {border-left: 12px solid rgb(170, 85, 6); }
 
 
 .xp_dateplace {
@@ -304,7 +303,7 @@ span.service3 {border: 7px solid rgb(255, 110, 52);}
 span.service4 {border: 7px solid black;}
 
 .service-card {
-    padding: 30px 20px !important;
+    padding: 30px 20px ;
 }
 
 div.services_page section.container div div div.ft-item p {
@@ -426,7 +425,7 @@ text-align: justify
   }
   .main-demo-hero .hero-content-wrapper, 
   .main-demo-hero .hero-content-wrapper .hero-content {
-	padding-left : 0 !important; 
-	padding-right : 0 !important; 
+	padding-left : 0 ; 
+	padding-right : 0 ; 
   }
 }
