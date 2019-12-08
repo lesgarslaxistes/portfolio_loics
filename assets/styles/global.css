@@ -1,0 +1,432 @@
+/* Feuille de style */
+/* Loic Sitti dec-2019 */
+
+/* ---- Fonts / Police ---- */
+
+@font-face {
+    font-family: Square;
+    src: url(../../fonts/Square.ttf);
+}
+
+/* ---- Hero / Cover ---- */
+
+.main-demo-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('../images/bas.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:  center bottom;
+}
+
+.main-demo-hero .bg-overlay {
+  background: none;
+}
+
+.navbar-brand {
+  margin-top : 3px;
+}
+
+.navbar .navbar-nav li a {
+  color: black;
+}
+
+.navbar-right .dropdown-menu {
+  right: 10px;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 img {
+  width: 2em;
+}
+
+.main-demo-hero .hero-content-wrapper {
+    padding-left: 0%;
+}
+
+.hero-content-wrapper .hero-content .hero-subheading {
+  margin-top: 30px;
+}
+
+.main-demo-hero .hero-content-wrapper .hero-content .hero-subheading {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h4.hero-subheading {
+  font-family: Square, "Open Sans","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+
+.main-demo-hero .hero-content-wrapper .hero-content .hero-subheading {
+	color: black;
+}
+
+.cap_t {color:rgba(12, 8, 228, 0.815);}
+.cap_w {color:rgb(12, 132, 148);}
+.cap_g {color:rgb(165, 62, 3);}
+
+.poste_actuel {
+	display : block;
+	width: 250px;
+	margin : auto;
+	margin-top : 20px;
+	padding: 10px;
+	line-height: 20px;
+	border: 3px solid black;
+	color: black;
+	letter-spacing: 1px;
+	background-color: rgba(255,255,255,1);
+	font-family: "Open Sans","Helvetica Neue",Helvetica,sans-serif;
+	text-transform: uppercase;
+	font-size: .75em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.scroller-dark {
+  color: black;
+}
+
+/* ---- Services / Competences ---- */
+
+.servicecard1 {
+  border-top: 5px solid rgb(8, 5, 202);
+}
+.servicecard2 {
+  border-top: 5px solid rgb(3, 153, 141);
+}
+.servicecard3 {
+  border-top: 5px solid rgb(161, 63, 6);
+}
+
+section.ft-cards .ft-item {
+text-align: center;
+}
+section.ft-cards .ft-item p {
+text-align: left;
+}
+
+.collab .col-md-6 {
+	text-align: center;
+}
+
+	
+/* ---- Portfolio ---- */
+
+section.portfolio-layout {
+margin-top: 0;
+padding-top: 75px;
+}
+section.portfolio_page {
+margin-top: 0;
+padding-top: 0;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption {
+    background: rgba(17, 17, 17, .95) none repeat scroll 0% 0%;
+}
+
+a.portfolio-expand-1 {background:rgb(3, 0, 204);}
+a.portfolio-expand-2 {background:rgb(2, 146, 134);}
+a.portfolio-expand-3 {background:rgb(168, 64, 3);}
+	
+	
+
+/* ---- Contact ---- */
+
+#contact header{
+	margin-bottom: 15px;
+}
+
+.contact_infos {
+	padding: 10px 0;
+}
+.contact_infos .ws-s {
+	padding-bottom: 15px;
+}
+
+.ft-x .ft-item span {
+	margin: 10px 10px 0 0;
+	width: 100%;
+}
+
+#contact .section h5{
+	margin-bottom: 10px;
+}
+
+#contact div.col-md-12 {
+	text-align: center; line-height: 15px;
+}
+
+#contact div.contact_form {
+	text-align: left;
+}
+
+#contact .section p{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#contact .section p a{
+	color: #777;
+}
+
+#contact p.places{
+	color: #BBB;
+}
+
+
+.et-map-pin {color: #45B29D;}
+.linea-basic-mail {color: #EFC94C;}
+.et-phone {color:#E27A3F;}
+
+.social {
+padding-bottom: 0;
+}
+
+.social div span img {
+margin-top: -10px;
+width: 48px;
+}
+
+.ft-x .ft-item, .ft-y .ft-item {
+    text-align: center;
+}
+
+/* ---- CV PAGE ---- */
+
+.ft-centered .ft-square-frame-dark span.bts {background: rgb(0, 28, 155); !important}
+.ft-centered .ft-square-frame-dark span.licence {background: rgb(0, 146, 156); !important}
+.ft-centered .ft-square-frame-dark span.master {background: rgb(167, 61, 0); !important}
+
+
+
+.diplomas {
+padding-bottom: 0;
+}
+
+.diplomas div span img {
+margin-top: -10px;
+width: 48px;
+}
+
+section.skills h3.languestitle {padding-bottom: 10px; border-bottom: 5px solid rgb(0, 39, 146);}
+section.skills h3.softtitle {padding-bottom: 10px; border-bottom: 5px solid rgb(2, 146, 156);}
+section.skills h3.langagestitle {padding-bottom: 10px; border-bottom: 5px solid rgb(156, 66, 13);}
+
+.t-join .t-info .t-role {margin-top: 5px;}
+
+
+div.panel-body {
+text-align: justify;
+}
+section.xp img, section.xp button {
+margin: 0 auto;
+display: block;
+}
+
+.accordions-1 .panel .panel-heading .panel-title {
+letter-spacing: 0;
+}
+
+.xp_bts_title .panel-heading {border-left: 12px solid #BBB; !important}
+.xp_licence_title .panel-heading {border-left: 12px solid #BBB; !important}
+.xp_master_title .panel-heading {border-left: 12px solid rgb(0, 31, 170); !important}
+.xp_job_title .panel-heading {border-left: 12px solid rgb(3, 150, 155); !important}
+.xp_auto_title .panel-heading {border-left: 12px solid rgb(170, 85, 6); !important}
+
+
+.xp_dateplace {
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+font-size: .9em;
+}
+
+.xp .panel img {
+margin-bottom: 10px;
+}
+
+
+/* ---- Services PAGE ---- */
+
+div.bas {
+  background: url('.../images/bas.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:  center bottom;
+}
+
+div.process {
+  padding-top: 0;
+}
+
+div.publications {
+  background: #F8F8F8 url('../images/bas.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:  center bottom;
+}
+.cta-link .bg-overlay  {
+  background: #F8F8F8 url('../images/bas.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:  center bottom;
+}
+
+section.services  button.btn-ghost {margin: 5px 8px ;}
+
+section.services .col-md-4 {
+text-align: center;
+}
+section.services .col-md-4 span{
+font-size: 6em;
+font-weight: 700;
+display: block;
+padding : 20px;
+margin: 0 auto;
+width: 140px;
+height: 140px;
+text-align: center;
+color: #111;
+}
+
+span.service0 {border: 7px solid #AAA;}
+span.service1 {border: 7px solid rgb(0, 19, 121);}
+span.service2 {border: 7px solid rgb(76, 214, 239);}
+span.service3 {border: 7px solid rgb(255, 110, 52);}
+span.service4 {border: 7px solid black;}
+
+.service-card {
+    padding: 30px 20px !important;
+}
+
+div.services_page section.container div div div.ft-item p {
+	text-align: left;
+}
+
+.ft-cards .ft-item {border-left: 1px solid #ddd;}
+.ft-cards .ft-item {border-right: 1px solid #ddd;}
+.ft-cards .ft-item {border-bottom: 1px solid #ddd;}
+
+.service-card a.btn-ghost {
+    display: inline-block;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 1.8em;
+    border-radius: 0;
+    transition: all 0.5s;
+	background: none;
+	border: 2px solid #111;
+	overflow: hidden;
+	z-index: 1;
+	padding: 6px 33px;
+	font-size: 0.75em;
+	margin-top: 0;
+	color: black;
+}
+
+.service-card a.btn-ghost:hover {
+    color: #fff;
+}
+
+.col-sm-2.service-left {
+text-align: center;
+}
+
+.col-sm-2.service-left i {
+width: 90px; 
+height: 90px; 
+display: inline-block; 
+font-size: 40px; 
+line-height: 80px; 
+text-align: center; 
+vertical-align: top; 
+color: #111; 
+border: 5px solid #fff; 
+vertical-align: middle;
+box-shadow: 0 0 0 1px #111;
+}
+
+i.fa-code, i.fa-graduation-cap {background: rgb(0, 44, 165);}
+i.fa-cogs, i.fa-line-chart {background: rgb(0, 114, 114);}
+i.fa-eye, i.fa-pencil {background: rgb(167, 67, 9);}
+
+div.cards {
+padding-top: 10px;
+padding-bottom: 25px;
+}
+
+div.services-title-row {
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+/* ---- contact page ---- */
+
+.form-group textarea {
+  resize: vertical;
+}
+
+
+/* ---- Plan du site ---- */
+
+.plan_site_links a {
+color: #333;
+}
+.plan_site_links a:hover {
+text-decoration : underline;
+}
+
+
+.ft-centered .social1:hover span {border-color: rgb(0, 22, 148);}
+.ft-centered .social2:hover span {border-color: rgb(0, 133, 126);}
+.ft-centered .social3:hover span {border-color: rgb(165, 72, 17);}
+
+div.pic_cv_page img{
+width: 100%;
+}
+
+div.txt_cv_page {
+text-align: justify
+}
+
+
+.cta-link .cta-wrapper {
+    padding-bottom: 250px;
+}
+
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 1200px) {
+  .hero-lead img {
+	width: 180px;
+  }
+}
+
+@media (max-width: 770px) {
+  .hero-lead img {
+	width: 100px;
+  }
+  h4.hero-subheading {
+	font-size: 1em;
+  }
+  .scroller {
+	visibility: hidden;
+  }
+  .freelancer-about figure img {
+	width: 200px;
+  }
+  .main-demo-hero .hero-content-wrapper, 
+  .main-demo-hero .hero-content-wrapper .hero-content {
+	padding-left : 0 !important; 
+	padding-right : 0 !important; 
+  }
+}
