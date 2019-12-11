@@ -70,6 +70,7 @@ h4.hero-subheading {
 .cap_w {color:rgb(12, 132, 148);}
 .cap_g {color:rgb(165, 62, 3);}
 
+/* test pour integrer mon future poste 
 .poste_actuel {
 	display : block;
 	width: 250px;
@@ -87,6 +88,8 @@ h4.hero-subheading {
 	font-weight: 400;
 	letter-spacing: 1px;
 }
+
+*/
 
 .scroller-dark {
   color: black;
@@ -114,7 +117,6 @@ text-align: left;
 .collab .col-md-6 {
 	text-align: center;
 }
-
 	
 /* ---- Portfolio ---- */
 
@@ -130,12 +132,6 @@ padding-top: 0;
 .portfolio-columns-fw .portfolio-item figure figcaption {
     background: rgba(17, 17, 17, .95) none repeat scroll 0% 0%;
 }
-
-a.portfolio-expand-1 {background:rgb(3, 0, 204);}
-a.portfolio-expand-2 {background:rgb(2, 146, 134);}
-a.portfolio-expand-3 {background:rgb(168, 64, 3);}
-	
-	
 
 /* ---- Contact ---- */
 
@@ -198,174 +194,17 @@ width: 48px;
     text-align: center;
 }
 
-/* ---- CV PAGE ---- */
+/* ---- Page CV ---- */
 
 .ft-centered .ft-square-frame-dark span.bts {background: rgb(0, 28, 155); }
 .ft-centered .ft-square-frame-dark span.licence {background: rgb(0, 146, 156); }
 .ft-centered .ft-square-frame-dark span.master {background: rgb(167, 61, 0); }
 
-
-
-.diplomas {
-padding-bottom: 0;
-}
-
-.diplomas div span img {
-margin-top: -10px;
-width: 48px;
-}
-
-section.skills h3.languestitle {padding-bottom: 10px; border-bottom: 5px solid rgb(0, 39, 146);}
-section.skills h3.softtitle {padding-bottom: 10px; border-bottom: 5px solid rgb(2, 146, 156);}
-section.skills h3.langagestitle {padding-bottom: 10px; border-bottom: 5px solid rgb(156, 66, 13);}
-
-.t-join .t-info .t-role {margin-top: 5px;}
-
-
-div.panel-body {
-text-align: justify;
-}
-section.xp img, section.xp button {
-margin: 0 auto;
-display: block;
-}
-
-.accordions-1 .panel .panel-heading .panel-title {
-letter-spacing: 0;
-}
-
-.xp_bts_title .panel-heading {border-left: 12px solid #BBB; }
-.xp_licence_title .panel-heading {border-left: 12px solid #BBB; }
-.xp_master_title .panel-heading {border-left: 12px solid rgb(0, 31, 170); }
-.xp_job_title .panel-heading {border-left: 12px solid rgb(3, 150, 155); }
-.xp_auto_title .panel-heading {border-left: 12px solid rgb(170, 85, 6); }
-
-
-.xp_dateplace {
-text-align: center;
-text-transform: uppercase;
-font-weight: bold;
-font-size: .9em;
-}
-
-.xp .panel img {
-margin-bottom: 10px;
-}
-
-
-/* ---- Services PAGE ---- */
-
-div.bas {
-  background: url('.../images/bas.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position:  center bottom;
-}
-
-div.process {
-  padding-top: 0;
-}
-
-div.publications {
-  background: #F8F8F8 url('../images/bas.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position:  center bottom;
-}
 .cta-link .bg-overlay  {
   background: #F8F8F8 url('../images/bas.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:  center bottom;
-}
-
-section.services  button.btn-ghost {margin: 5px 8px ;}
-
-section.services .col-md-4 {
-text-align: center;
-}
-section.services .col-md-4 span{
-font-size: 6em;
-font-weight: 700;
-display: block;
-padding : 20px;
-margin: 0 auto;
-width: 140px;
-height: 140px;
-text-align: center;
-color: #111;
-}
-
-span.service0 {border: 7px solid #AAA;}
-span.service1 {border: 7px solid rgb(0, 19, 121);}
-span.service2 {border: 7px solid rgb(76, 214, 239);}
-span.service3 {border: 7px solid rgb(255, 110, 52);}
-span.service4 {border: 7px solid black;}
-
-.service-card {
-    padding: 30px 20px ;
-}
-
-div.services_page section.container div div div.ft-item p {
-	text-align: left;
-}
-
-.ft-cards .ft-item {border-left: 1px solid #ddd;}
-.ft-cards .ft-item {border-right: 1px solid #ddd;}
-.ft-cards .ft-item {border-bottom: 1px solid #ddd;}
-
-.service-card a.btn-ghost {
-    display: inline-block;
-    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    line-height: 1.8em;
-    border-radius: 0;
-    transition: all 0.5s;
-	background: none;
-	border: 2px solid #111;
-	overflow: hidden;
-	z-index: 1;
-	padding: 6px 33px;
-	font-size: 0.75em;
-	margin-top: 0;
-	color: black;
-}
-
-.service-card a.btn-ghost:hover {
-    color: #fff;
-}
-
-.col-sm-2.service-left {
-text-align: center;
-}
-
-.col-sm-2.service-left i {
-width: 90px; 
-height: 90px; 
-display: inline-block; 
-font-size: 40px; 
-line-height: 80px; 
-text-align: center; 
-vertical-align: top; 
-color: #111; 
-border: 5px solid #fff; 
-vertical-align: middle;
-box-shadow: 0 0 0 1px #111;
-}
-
-i.fa-code, i.fa-graduation-cap {background: rgb(0, 44, 165);}
-i.fa-cogs, i.fa-line-chart {background: rgb(0, 114, 114);}
-i.fa-eye, i.fa-pencil {background: rgb(167, 67, 9);}
-
-div.cards {
-padding-top: 10px;
-padding-bottom: 25px;
-}
-
-div.services-title-row {
-	margin: 0;
-	padding-bottom: 10px;
 }
 
 /* ---- contact page ---- */
@@ -401,7 +240,6 @@ text-align: justify
 .cta-link .cta-wrapper {
     padding-bottom: 250px;
 }
-
 
 /* ---- RESPONSIVE ---- */
 @media (max-width: 1200px) {
