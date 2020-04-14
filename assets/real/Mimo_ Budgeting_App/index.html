@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting App</title>
+</head>
+<body>
+    <h1>How broke am I ?</h1>
+    <div class="inputElements" id="inputTop">
+        <h3>Budget</h3>
+        <input type="text" class="submissionfield">
+        <h3>Monthly Costs</h3>
+        <input type="text" placeholder="rent" class="submissionfield">
+        <input type="text" placeholder="utilities" class="submissionfield">
+        <h3>Savings Priority</h3>
+        <input type="radio" name="prio" value="high">" High "
+        <input type="radio" name="prio" value="medium">" Medium "
+        <input type="radio" name="prio" value="low">" Low "
+    </div>
+    <div class="inputElements" id="inputBotton">
+        <br>
+        <button onclick="showMessage()">Compute</button>
+    </div>
+    <script>
+    function showMessage() {
+        var body = document.getElementById("main");
+        var message = document.createElement("p");
+        message.innerHTML = "Can't know without some JavaScript code";
+        body.appendChild(message);
+        }
+        </script>
+</body>
+</html>

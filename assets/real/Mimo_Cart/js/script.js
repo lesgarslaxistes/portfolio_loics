@@ -26,6 +26,10 @@ function showTotal() {
  var orderTotal = document.getElementById("orderTotal");
  orderTotal.innerHTML = "";
  if (isTotalHidden === false) {
-   showTotal();
- }
+   var total = 0;
+   for (var i = 0; i < cartItems.length; i++) {
+     total += cartItems[i].price;
+    }
+    orderTotal.innerHTML += "Total: $" + total;
+  }
 }
